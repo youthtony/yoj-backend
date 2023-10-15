@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: com.yitao.yoj.esdao.PostEsDaoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 11.885 s <<< FAILURE! - in com.yitao.yoj.esdao.PostEsDaoTest
+testAdd  Time elapsed: 0.948 s  <<< ERROR!
+org.springframework.data.elasticsearch.UncategorizedElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information; nested exception is ElasticsearchException[java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information]; nested: ExecutionException[java.net.ConnectException: Connection refused: no further information]; nested: ConnectException[Connection refused: no further information];
+	at com.yitao.yoj.esdao.PostEsDaoTest.testAdd(PostEsDaoTest.java:65)
+Caused by: org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testAdd(PostEsDaoTest.java:65)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testAdd(PostEsDaoTest.java:65)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+testCount  Time elapsed: 0.135 s  <<< ERROR!
+org.springframework.data.elasticsearch.UncategorizedElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information; nested exception is ElasticsearchException[java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information]; nested: ExecutionException[java.net.ConnectException: Connection refused: no further information]; nested: ConnectException[Connection refused: no further information];
+	at com.yitao.yoj.esdao.PostEsDaoTest.testCount(PostEsDaoTest.java:77)
+Caused by: org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testCount(PostEsDaoTest.java:77)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testCount(PostEsDaoTest.java:77)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+test  Time elapsed: 0.08 s  <<< ERROR!
+org.springframework.data.elasticsearch.UncategorizedElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information; nested exception is ElasticsearchException[java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information]; nested: ExecutionException[java.net.ConnectException: Connection refused: no further information]; nested: ConnectException[Connection refused: no further information];
+	at com.yitao.yoj.esdao.PostEsDaoTest.test(PostEsDaoTest.java:39)
+Caused by: org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.test(PostEsDaoTest.java:39)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.test(PostEsDaoTest.java:39)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+testFindById  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.data.elasticsearch.UncategorizedElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information; nested exception is ElasticsearchException[java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information]; nested: ExecutionException[java.net.ConnectException: Connection refused: no further information]; nested: ConnectException[Connection refused: no further information];
+	at com.yitao.yoj.esdao.PostEsDaoTest.testFindById(PostEsDaoTest.java:71)
+Caused by: org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testFindById(PostEsDaoTest.java:71)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testFindById(PostEsDaoTest.java:71)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+testFindByCategory  Time elapsed: 0.033 s  <<< ERROR!
+org.springframework.data.elasticsearch.UncategorizedElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information; nested exception is ElasticsearchException[java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information]; nested: ExecutionException[java.net.ConnectException: Connection refused: no further information]; nested: ConnectException[Connection refused: no further information];
+	at com.yitao.yoj.esdao.PostEsDaoTest.testFindByCategory(PostEsDaoTest.java:82)
+Caused by: org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testFindByCategory(PostEsDaoTest.java:82)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testFindByCategory(PostEsDaoTest.java:82)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+testSelect  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.data.elasticsearch.UncategorizedElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information; nested exception is ElasticsearchException[java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information]; nested: ExecutionException[java.net.ConnectException: Connection refused: no further information]; nested: ConnectException[Connection refused: no further information];
+	at com.yitao.yoj.esdao.PostEsDaoTest.testSelect(PostEsDaoTest.java:45)
+Caused by: org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testSelect(PostEsDaoTest.java:45)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.yitao.yoj.esdao.PostEsDaoTest.testSelect(PostEsDaoTest.java:45)
+Caused by: java.net.ConnectException: Connection refused: no further information
+

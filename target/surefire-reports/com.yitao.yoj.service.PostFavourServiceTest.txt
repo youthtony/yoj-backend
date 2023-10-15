@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.yitao.yoj.service.PostFavourServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in com.yitao.yoj.service.PostFavourServiceTest
+doPostFavour  Time elapsed: 0 s  <<< ERROR!
+com.yitao.yoj.exception.BusinessException: 请求数据不存在
+	at com.yitao.yoj.service.PostFavourServiceTest.doPostFavour(PostFavourServiceTest.java:34)
+
